@@ -1,0 +1,23 @@
+  * {
+      margin: 0;
+      padding: 0;
+  }
+  
+  body {
+      overflow: hidden;
+  }
+  
+  .wrap {
+      position: relative;
+  }
+  
+  .wc-view {
+      position: absolute;
+      top: 0;
+      z-index: 1;
+      transition: top 0.8s;
+  }
+  
+  .wcitem {
+      position: relative;
+  }
